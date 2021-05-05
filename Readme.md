@@ -30,6 +30,6 @@ The Q-Tables are developed on
 
 ## Deep Q-networks on OpenAI Gym
 
-- Implemented replay buffers to store ![\Large (s_t, a_t, r_t, s_{t+1}, d_t)](https://latex.codecogs.com/svg.latex?\Large&space;(s_t, a_t, r_t, s_{t+1}, d_t)-tuples
+- Implemented replay buffers to store !https://latex.codecogs.com/svg.latex?\Large&space;(s_t, a_t, r_t, s_{t+1}, d_t)-tuples
 - Use epsilon greedy strategy for action sampling to introduce randomness into the actions
 - Loss function: ![Output sample](https://github.com/SiHaoShen/Reinforcement_Learning/blob/master/figure/Figure_2.PNG)
