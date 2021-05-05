@@ -26,10 +26,10 @@ The Q-Tables are developed on
     • the cart position is more than 2.4 (center of the cart reaches the edge of or the display), or
     • episode length is greater than 500.
 
-![Output sample](https://git.rwth-aachen.de/si.hao.shen/Reinforcement_Learning/-/raw/master/figure/Figure_1.png)
+![Output sample](https://github.com/SiHaoShen/Reinforcement_Learning/blob/master/figure/Figure_1.PNG)
 
 ## Deep Q-networks on OpenAI Gym
 
 - Implemented replay buffers to store ![\Large (s_t, a_t, r_t, s_{t+1}, d_t)](https://latex.codecogs.com/svg.latex?\Large&space;(s_t, a_t, r_t, s_{t+1}, d_t) )-tuples
 - Use epsilon greedy strategy for action sampling to introduce randomness into the actions
-- Loss function: 
+- Loss function: ![Output sample](https://github.com/SiHaoShen/Reinforcement_Learning/blob/master/figure/Figure_2.PNG)
