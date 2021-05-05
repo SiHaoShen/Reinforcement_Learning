@@ -22,9 +22,9 @@ The Q-Tables are developed on
     | 3    | Pole Velocity at tip (1/s) |   -∞   |     ∞ |
 
   - The episode ends when
-    • the pole is more than 12 degrees from vertical, or
-    • the cart position is more than 2.4 (center of the cart reaches the edge of or the display), or
-    • episode length is greater than 500.
+      - the pole is more than 12 degrees from vertical, or
+      - the cart position is more than 2.4 (center of the cart reaches the edge of or the display), or
+      - episode length is greater than 500.
 
 ![Output sample](https://github.com/SiHaoShen/Reinforcement_Learning/blob/master/figure/Figure_1.PNG)
 
